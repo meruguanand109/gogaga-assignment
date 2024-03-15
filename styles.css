@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.home-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://i.pinimg.com/736x/4c/32/f7/4c32f7322911644c66a249e283f07153.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.home-buttons-container {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-para-text {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.home-title-text {
+    margin-bottom: 0px;
+}
+
+.home-buttons {
+    min-width: 120px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;
+    margin-right: 10px;
+    color: white;
+    background-color: transparent;
+    border: 0px;
+}
+
+.login-page {
+    background-image: url("https://i.pinimg.com/736x/46/a5/0d/46a50d4bce3f2956966c6e6571003ecd.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width:768px){
+    .login-page{
+        background-image:linear-gradient(to right,#f58982,#f55549 );
+    }
+    .home-container{
+        background-image: linear-gradient(to left,#f55549,#f58982)
+    }
+}
+    
+
+.login-card {
+    width: 50vw;
+    height: 40vh;
+    border-radius:20px;
+    padding: 20px;
+}
+
+
+
+/*LOGIN PAGE*/
+
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:transparent;
+}
+
+.login-form {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        background-color:transparent;
+}
+
+.login-form h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.login-back-btn{
+    color:white
+}
+.btn{
+    width:80px;
+    height: 35px;
+}
+
+
+
+/* Intro Page*/
+.gogaga-logo {
+    width: 80px;
+    height: 70px;
+}
+
+
+.icon {
+    font-size: 35px;
+    color: #d0b200;
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+@media screen and (min-width:40px){
+    .gogago-logo{
+        width: 90px;
+        height: 85px;
+    }
+}
+.intro-nav{
+    display: flex;
+}
+.destinations-card{
+    width:500px;
+    height:500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin:10px;
+}
+.search-container{
+    width:70vw;
+    padding-left:40px;
+}
+
+.destinations-container{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:767px){
+    .destinations-container{
+        flex-direction: column;
+    }
+
+}
+
+.destination-image{
+    width:80%;
+    height:80%;
+}
+
+.packages-container{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.package-card{
+    width:500px;
+    height:500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin:10px;
+}
+@media  screen and (max-width:767px) {
+    .packages-container{
+        flex-direction: column;
+    }
+    
+}
+
+.flight-booking-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flight-booking-card{
+    width:80vw;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin:15px;
+}
+
+.hotel-booking-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.hotel-card{
+    display: flex;
+}
+.hotel-image-container{
+    order:1;
+}
+@media screen and (max-width:767px){
+    .hotel-image-container{
+        order:-1;
+    }
+    .hotel-card{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 45px;
+    }
+    p{
+        font-size: 24px;
+    }
+}
+h1{
+    font-size:28px;
+}
+p{
+    font-size:18px;
+}
+
+
+.footer-section {
+    background-color:white;
+    border-top:2px solid black;
+    margin-top:10px;
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+.logo {
+    width: 80px;
+    height: 70px;
+}
+.intro-page-container{
+    background-image:linear-gradient(to right,#f58982,#f55549 );
+}
+#intro{
+    height:40vh;
+}
+header{
+    text-align: center;
+}
